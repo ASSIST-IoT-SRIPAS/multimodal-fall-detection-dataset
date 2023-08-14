@@ -1,1 +1,1 @@
-# multimodal-fall-detection-dataset
+# Multimodal fall detection dataset
