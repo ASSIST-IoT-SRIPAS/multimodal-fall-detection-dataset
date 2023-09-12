@@ -68,29 +68,29 @@ During each fall activity, 3 out of 5 falls ended in ~10 seconds of immobility, 
 
 ## Dataset organisation
 ### Accleration
-SET - where data was collected (mannequin lab\lab\stairs)
-PARTICIPANT - participant identifier inside SET
-TIMESTAMP - timestamp in format: %Y-%m-%d %H:%M:%S.%f
-SOURCE - device reporting: TAG/WATCH_R/WATCH_L
-X - value axis X
-Y - value axis Y
-Z - value axis Z
-TYPE - type of activity, M - mannequin fall, F - surface fall, A - ADL, I - immobility
-ACTIVITY - activity number as in activities table description
-IS_FALL - 0/1 target variable, indicating a 3s region around a fall
+SET - where data was collected (mannequin lab\lab\stairs)  
+PARTICIPANT - participant identifier inside SET  
+TIMESTAMP - timestamp in format: %Y-%m-%d %H:%M:%S.%f  
+SOURCE - device reporting: TAG/WATCH_R/WATCH_L  
+X - value axis X   
+Y - value axis Y  
+Z - value axis Z  
+TYPE - type of activity, M - mannequin fall, F - surface fall, A - ADL, I - immobility  
+ACTIVITY - activity number as in activities table description  
+IS_FALL - 0/1 target variable, indicating a 3s region around a fall  
 
 ### Location
-SET - where data was collected (mannequin lab\lab\stairs)
-PARTICIPANT - participant identifier inside SET
-TIMESTAMP - timestamp in format: %Y-%m-%d %H:%M:%S.%f
-TYPE - type of activity, M - mannequin fall; F - surface fall; A - ADL; I - immobility
-ACTIVITY - activity number as in activities table description
-IS_FALL - 0/1 target variable, indicating a 3s region around a fall
-RANGE_{NUM} - distance to anchor NUM, where NUM is 1, 2, 3, 4
-X, Y, Z – tag coordinates in meters
-LOC_MODE – localization mode: 3D – 3D localization with 4 anchors; 2D_AVG – average of at least two 2D localizations (needs 4 anchors, each part of the average computed with 3 anchors); 2D – 2D localization with 3 anchors; APPROX – approximate location based only on the nearest anchor; NONE – no location solution could be found (either too large measurement error, or too few seen anchors)
-LOC_ANCHORS – number of anchors seen by the tag
-LOC_ACCURACY – radius of the sphere within which the tag is. Only used in the APPROX mode, in all other modes it is always 0
+SET - where data was collected (mannequin lab\lab\stairs)  
+PARTICIPANT - participant identifier inside SET  
+TIMESTAMP - timestamp in format: %Y-%m-%d %H:%M:%S.%f  
+TYPE - type of activity, M - mannequin fall; F - surface fall; A - ADL; I - immobility  
+ACTIVITY - activity number as in activities table description  
+IS_FALL - 0/1 target variable, indicating a 3s region around a fall  
+RANGE_{NUM} - distance to anchor NUM, where NUM is 1, 2, 3, 4  
+X, Y, Z – tag coordinates in meters  
+LOC_MODE – localization mode: 3D – 3D localization with 4 anchors; 2D_AVG – average of at least two 2D localizations (needs 4 anchors, each part of the average computed with 3 anchors); 2D – 2D localization with 3 anchors; APPROX – approximate location based only on the nearest anchor; NONE – no location solution could be found (either too large measurement error, or too few seen anchors)  
+LOC_ANCHORS – number of anchors seen by the tag  
+LOC_ACCURACY – radius of the sphere within which the tag is. Only used in the APPROX mode, in all other modes it is always 0  
 
 ## Notes from data collection
 
