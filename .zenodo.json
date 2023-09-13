@@ -1,0 +1,63 @@
+{
+    "license": "CC-BY-4.0", 
+    "description": "<p>Multimodal dataset for fall detection. Includes acceleration data collected from a tag and two smartwatches, and location reported by the tag. More details about the data collection procedure can be found in&nbsp;<code>notes.md</code>.</p>\n\n<p><strong>Contents</strong></p>\n\n<p>The repository contains:</p>\n\n<ul>\n\t<li><code>data/location_data.csv</code>&nbsp;and&nbsp;<code>data/full_acceleration</code>&nbsp;&ndash; preprocessed acceleration and location data from 10 participants and mannequin simulated falls with target variable identified</li>\n\t<li><code>data/subsampled_acceleration_data.csv</code>&nbsp;&ndash; subsampled acceleration dataset used for training the AI model</li>\n\t<li><code>notes.md</code>&nbsp;&ndash; description of activities performed and notes from data collection</li>\n\t<li><code>videos</code>&nbsp;&ndash; reference videos for performed activities</li>\n</ul>\n\n<p><strong>Authors</strong></p>\n\n<ul>\n\t<li><a href=\"https://orcid.org/0000-0002-2543-9461\">Piotr Sowi\u0144ski</a>&nbsp;&ndash; research methodology, data collection and processing</li>\n\t<li><a href=\"https://orcid.org/0000-0003-3217-1050\">Monika Kobus</a>&nbsp;&ndash; research methodology, data collection</li>\n\t<li><a href=\"https://orcid.org/0000-0003-4295-3005\">Anna D\u0105browska</a>&nbsp;&ndash; research methodology, methodological supervision</li>\n\t<li><a href=\"https://orcid.org/0000-0003-1524-7877\">Kajetan Rachwa\u0142</a>&nbsp;&ndash; data collection</li>\n\t<li><a href=\"https://orcid.org/0000-0002-7109-891X\">Karolina Bogacka</a>&nbsp;&ndash; research methodology</li>\n\t<li><a href=\"https://orcid.org/0000-0002-9572-2705\">Krzysztof Baszczy\u0144ski</a>&nbsp;&ndash; research methodology, data collection</li>\n\t<li><a href=\"https://orcid.org/0000-0002-3080-0303\">Anastasiya Danilenka</a>&nbsp;&ndash; research methodology, data collection and processing</li>\n</ul>\n\n<p><strong>Acknowledgements</strong></p>\n\n<p>This work is part of the&nbsp;<a href=\"https://assist-iot.eu/\">ASSIST-IoT project</a>&nbsp;that has received funding from the EU&rsquo;s Horizon 2020 research and innovation programme under grant agreement No 957258.</p>\n\n<p>The&nbsp;<a href=\"https://www.ciop.pl/en\">Central Institute for Labour Protection &ndash; National Research Institute</a>&nbsp;provided facilities and equipment for data collection.</p>\n\n<p><strong>License</strong></p>\n\n<p>The dataset is licensed under the&nbsp;<a href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>.</p>", 
+    "language": "eng", 
+    "title": "ASSIST-IoT Multimodal Fall Detection Dataset", 
+    "keywords": [
+        "fall detection", 
+        "multimodal", 
+        "accelerometer", 
+        "ASSIST-IoT", 
+        "IoT", 
+        "UWB localization"
+    ], 
+    "grants": [
+        {
+            "id": "10.13039/501100000780::957258"
+        }
+    ], 
+    "upload_type": "dataset", 
+    "communities": [
+        {
+            "identifier": "assist-iot"
+        }
+    ], 
+    "creators": [
+        {
+            "orcid": "0000-0002-3080-0303", 
+            "affiliation": "Warsaw University of Technology, Poland", 
+            "name": "Anastasiya Danilenka"
+        }, 
+        {
+            "orcid": "0000-0002-2543-9461", 
+            "affiliation": "Warsaw University of Technology, Poland", 
+            "name": "Piotr Sowi\u0144ski"
+        }, 
+        {
+            "orcid": "0000-0003-3217-1050", 
+            "affiliation": "Central Institute for Labour Protection \u2013 National Research Institute, Poland", 
+            "name": "Monika Kobus"
+        }, 
+        {
+            "orcid": "0000-0003-4295-3005", 
+            "affiliation": "Central Institute for Labour Protection \u2013 National Research Institute, Poland", 
+            "name": "Anna D\u0105browska"
+        }, 
+        {
+            "orcid": "0000-0003-1524-7877", 
+            "affiliation": "Warsaw University of Technology, Poland", 
+            "name": "Kajetan Rachwa\u0142"
+        }, 
+        {
+            "orcid": "0000-0002-7109-891X", 
+            "affiliation": "Warsaw University of Technology, Poland", 
+            "name": "Karolina Bogacka"
+        }, 
+        {
+            "orcid": "0000-0002-9572-2705", 
+            "affiliation": "Central Institute for Labour Protection \u2013 National Research Institute, Poland", 
+            "name": "Krzysztof Baszczy\u0144ski"
+        }
+    ], 
+    "access_right": "open"
+}
