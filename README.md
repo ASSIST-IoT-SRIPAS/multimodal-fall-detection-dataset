@@ -1,18 +1,14 @@
-[![DOI](https://zenodo.org/badge/XXXXX.svg)](https://zenodo.org/badge/latestdoi/XXXX)
-
 # Multimodal fall detection dataset
 
-Multimodal dataset for fall detection. Includes acceleration data collected from a tag and two smartwatches, and location reported by the tag.
-
-The dataset is archived [in Zenodo](https://zenodo.org/badge/latestdoi/XXX).
+Multimodal dataset for fall detection. Includes acceleration data collected from a tag and two smartwatches, and location reported by the tag. More details about the data collection procedure can be found in `notes.md`.
 
 ## Contents
 
-Repository contains:
-- preprocessed acceleration and location data from 10 participants and mannequin simulated falls with target variable identified
-- subsampled acceleration dataset used for training the AI model
-- description of activities performed and notes from data collection
-- reference videos for performed activities
+The repository contains:
+- `data/location_data.csv` and `data/full_acceleration` – preprocessed acceleration and location data from 10 participants and mannequin simulated falls with target variable identified
+- `data/subsampled_acceleration_data.csv` – subsampled acceleration dataset used for training the AI model
+- `notes.md` – description of activities performed and notes from data collection
+- `videos` – reference videos for performed activities
 
 ## Authors
 
